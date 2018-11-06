@@ -1,0 +1,28 @@
+server:
+  port: 1020
+
+spring:
+  thymeleaf:
+    cache: false
+    encoding: UTF-8
+    mode: HTML
+    prefix: classpath:/templates/
+    suffix: .html
+    servlet:
+      content-type: text/html
+  datasource:
+    url: jdbc:mysql://ip:3306/web?useUnicode=true&characterEncoding=utf-8&serverTimezone=UTC&AUTO_INCREMENT=1000
+    password: username
+    username: password
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  #JPA
+  jpa:
+    properties:
+      hibernate:
+        hbm2ddl:
+          auto: update
+        dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+    show-sql: true
+
+
