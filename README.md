@@ -1,17 +1,6 @@
-## Spring Boot Security Login and Register Sample
+## Spring  Security Tutorial
 
-Full Infomation : https://blog.csdn.net/Xincainy/article/details/83789682
+### 示例代码
 
-### All Dependencies
+- login-register 注册与登录
 
-  - IDEA
-  - Spring Boot 2.1.0
-  - Spring Security 5.1
-  - Thymeleaf 3.0
-  - JDK 1.8
-  - Maven 3.5.2
-  
- ### Run
- - Login: http://localhost:1020/login
- - Register: http://localhost:1020/register
- - User Info: http://localhost:1020/userInfo
